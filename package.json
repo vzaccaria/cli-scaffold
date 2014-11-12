@@ -1,0 +1,15 @@
+{
+  "name": "cli-scaffold",
+  "version": "0.0.1",
+  "description": "Simple scaffolding for node cli programs",
+  "bin": {
+    "new-node-cli": "./tools/new-node-cli.sh"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vittorio Zaccaria",
+  "license": "BSD",
+  "dependencies": {
+  }
+}

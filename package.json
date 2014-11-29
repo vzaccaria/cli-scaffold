@@ -1,6 +1,6 @@
 {
   "name": "cli-scaffold",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Simple scaffolding for node cli programs",
   "bin": {
     "new-node-cli": "./tools/new-node-cli.sh"

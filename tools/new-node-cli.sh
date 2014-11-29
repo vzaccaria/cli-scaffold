@@ -100,8 +100,12 @@ done
 
 tlib="$srcdir/../lib/node_modules/cli-scaffold/template"
 run "mkdir -p $dstdir/$name"
+run "mkdir -p $dstdir/$name/docs"
 run "< $tlib/package.json sed 's/__name__/$name/' > $dstdir/$name/package.json"
 run "< $tlib/index.ls sed 's/__name__/$name/' > $dstdir/$name/index.ls"
 run "cp $tlib/makefile $dstdir/$name"
+run "cp $tlib/verbfile.js $dstdir/$name"
+run "cp $tlib/readme.md $dstdir/$name/docs"
+
 
 

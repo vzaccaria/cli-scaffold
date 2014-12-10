@@ -13,6 +13,7 @@
   "author": "Vittorio Zaccaria",
   "license": "BSD",
   "dependencies": {
-    "docopt": "~0.4.1"
+    "docopt": "~0.4.1",
+    "shelljs": "*"
   }
 }
